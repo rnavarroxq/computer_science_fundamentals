@@ -54,3 +54,6 @@ desktop.ini
 # Other binary or temporary files
 *.bin
 *.elf
+
+#excalidraw
+*.excalidraw
