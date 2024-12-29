@@ -1,0 +1,56 @@
+# VSCode configuration files
+.vscode/
+*.code-workspace
+
+# Build artifacts and directories
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exp
+*.pdb
+*.idb
+
+# Ignore executables on Linux (files without an extension but with execute permission)
+*
+!*/
+!*.*
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Temporary and system files
+*.tmp
+*.log
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debugging files
+*.gch
+*.pch
+*.d
+*.gcno
+*.gcda
+*.gcov
+
+# IDE or external tool files
+.idea/
+*.iml
+
+# Other binary or temporary files
+*.bin
+*.elf
